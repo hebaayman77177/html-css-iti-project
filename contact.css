@@ -1,0 +1,36 @@
+.contact{
+background-image: url("./imgs/regForm.jpg");
+background-size: cover;
+padding: 30px;
+}
+.contact p{
+    background:rgba(44,77,144,0.68);
+    color:white;
+    font-size: 20px;
+    padding: 7px 15px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.contact form>*{
+    display: block;
+    color:gray;
+}
+.contact input,.contact textarea,.contact select{
+    margin-top:7px;
+    padding: 6px 16px;
+    width:100%;
+    max-width: 500px;
+}
+.contact label{
+    margin-top:19px;
+}
+.contact input[type="submit"]{
+    border: none;
+    border-radius: 10px;
+    opacity: 70%;
+    background-color: black;
+    color: white;
+    width:200px;
+}
+
+

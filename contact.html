@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <title>NTL|Next Technology Leaders</title>
+  </head>
+  <!-- 
+  todo
+  1- transation 
+  2- seo serach and update
+
+-->
+  <body>
+    <div style="margin:10% 25%; width: 50%; height:100%;">
+      <div class="contact">
+        <p>
+          Use the form below to place your inquiry or complaint.<br />
+          Please select the subject of inquiry to match yours.
+        </p>
+        <form>
+          <label>Name (required)</label>
+          <input type="text" name="name" placeholder="name" />
+          <label>E-mail address (required)</label>
+          <input type="email" name="email" placeholder="email" />
+          <label>Mobile</label>
+          <input type="text" name="mobile" placeholder="mobile" />
+          <label>Subject of Inquiry(required)</label>
+          <select name="subjectOfInquiry">
+            <option value="">---</option>
+            <option value="Inquiry about Registration">
+              Inquiry about Registration
+            </option>
+            <option value="Inquiry about Interview Cycle and Results">
+              Inquiry about Interview Cycle and Results
+            </option>
+            <option value="Inquiry about Enrollment Problems">
+              Inquiry about Enrollment Problems
+            </option>
+            <option value="Inquiry about Progress">
+              Inquiry about Progress
+            </option>
+            <option value="Inquiry about Study Groups">
+              Inquiry about Study Groups
+            </option>
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Complaint">Complaint</option>
+          </select>
+          <label>Message (required)</label>
+          <textarea name="message" placeholder="Message"></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

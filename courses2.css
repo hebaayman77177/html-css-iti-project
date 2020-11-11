@@ -1,0 +1,51 @@
+.courses{
+    padding: 15px 30px;
+}
+.courses__header {
+  background: #504f8d;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.courses__header a {
+  text-decoration: none;
+  color: yellow;
+}
+.courses__header {
+  font-size: 17px;
+}
+.courses__container{
+    display: flex;
+    /* justify-content: start; */
+    flex-wrap: wrap;
+}
+courses__container--column{
+    flex: 25%;
+    max-width: 25%;
+  padding: 0 4px;
+}
+.course {
+flex-basis: 400px;
+  margin: 10px;
+}
+.course img {
+  width: 400px;
+  height: 200px;
+}
+.course__description {
+  background: #333333;
+  color: white;
+  padding: 15px;
+}
+.course__description--platform{
+    color: yellow
+}
+.course__description p{
+    font-size: 15px;
+}
+.course__description--durarion,.course__description--level{
+    color: rgb(96, 96, 99);
+}
+
+
