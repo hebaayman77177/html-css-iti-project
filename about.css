@@ -1,0 +1,36 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+.about{
+    background: #E6F6FD;
+    border:1px solid #E6F6FD;
+}
+.about h1{
+    color:#0168A8;
+}
+
+.card{
+    width:90%;
+    margin:10% 5%;
+}
+
+.card>*{
+display: inline-block;
+}
+.card__img{
+    width:20%;
+    vertical-align: top;
+    margin-top: 55px;
+}
+.card__img--white_border{
+    border:2px solid white;
+}
+.card__description{
+    width:79%;
+    direction: rtl;
+}
+.card__description h1{
+    margin-bottom: 15px;
+}
