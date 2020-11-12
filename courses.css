@@ -1,5 +1,7 @@
-.courses{
-    padding: 15px 30px;
+.courses {
+  padding: 15px 30px;
+  background-image: url("./imgs/bgfcs.png");
+  background-size: cover;
 }
 
 .courses__header {
@@ -16,7 +18,37 @@
 .courses__header {
   font-size: 17px;
 }
-.courses_container{
+
+.courses__search {
+  text-align: center;
+  padding: 30px;
+}
+.search--text {
+  color: gray;
+}
+.search--text i {
+  cursor: pointer;
+}
+.courses__search > div:first-of-type {
+  margin-bottom: 17px;
+}
+.search--check {
+  color: rgb(185, 180, 180);
+}
+.search--check span{
+  display: inline-block;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.search--check span:first-of-type{
+  display: inline-block;
+  margin-right: 34px;
+}
+.search--check--active,.search--check span:hover {
+  color: gray;
+  text-decoration: underline;
+}
+.courses_container {
   padding: 10px;
   /* vertical-align:top; */
 }
@@ -26,10 +58,10 @@
   display: inline-block;
   margin: 12px;
   background: #333333;
-  vertical-align:top;
+  vertical-align: top;
   position: relative;
 }
-.course__img_layout{
+.course__img_layout {
   width: 400px;
   height: 200px;
   position: absolute;
@@ -37,10 +69,10 @@
   opacity: 50%;
   display: none;
 }
-.course__see_more{
+.course__see_more {
   text-decoration: none;
   background: gray;
-  color:white;
+  color: white;
   position: absolute;
   top: 86;
   left: 141;
@@ -48,11 +80,12 @@
   border-radius: 9px;
   display: none;
 }
-.course:hover .course__img_layout,.course:hover .course__see_more{
+.course:hover .course__img_layout,
+.course:hover .course__see_more {
   display: block;
 }
 
-.course__see_more:hover{
+.course__see_more:hover {
   background: black;
   opacity: 62.3%;
 }
@@ -64,15 +97,14 @@
   color: white;
   padding: 15px;
 }
-.course__description--platform{
-    color: yellow
+.course__description--platform {
+  color: yellow;
 }
 
-.course__description p{
-    font-size: 15px;
+.course__description p {
+  font-size: 15px;
 }
-.course__description--durarion,.course__description--level{
-    color: rgb(96, 96, 99);
+.course__description--durarion,
+.course__description--level {
+  color: rgb(96, 96, 99);
 }
-
-
