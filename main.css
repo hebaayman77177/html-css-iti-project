@@ -76,10 +76,14 @@ display: block;
   text-decoration: none;
   color: black;
 }
-.sub_nav a:hover {
+.sub_nav a:hover ,.sub_nav a:hover .fa {
   color: #2b68e2;
 }
 
+.sub_nav--second_main {
+  top: 2;
+  left: 193;
+}
 .header--second {
   background-image: url("./imgs/m1.png");
   background-size: cover;

@@ -27,6 +27,34 @@
   margin: 12px;
   background: #333333;
   vertical-align:top;
+  position: relative;
+}
+.course__img_layout{
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  background: black;
+  opacity: 50%;
+  display: none;
+}
+.course__see_more{
+  text-decoration: none;
+  background: gray;
+  color:white;
+  position: absolute;
+  top: 86;
+  left: 141;
+  padding: 13px;
+  border-radius: 9px;
+  display: none;
+}
+.course:hover .course__img_layout,.course:hover .course__see_more{
+  display: block;
+}
+
+.course__see_more:hover{
+  background: black;
+  opacity: 62.3%;
 }
 .course img {
   width: 400px;
